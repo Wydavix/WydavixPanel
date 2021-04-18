@@ -10,8 +10,8 @@
 
 ➕ Install the dependencies :
 
-- 💎 NodeJs v 15.14.0 [NodeJs](https://nodejs.org/en/)
-- 💎 ElectronJs v 12.0.4 [ElectronJs](https://www.electronjs.org/)
+- 💎 NodeJs v 15.14.0 [(NodeJs)](https://nodejs.org/en/)
+- 💎 ElectronJs v 12.0.4 [(ElectronJs)](https://www.electronjs.org/)
 
 ## 💻 Run Code
 
