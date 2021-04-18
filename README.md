@@ -4,7 +4,7 @@
 
 - 🔧 [Wydavix](https://www.wydavix.fr) Gestion Panel.
 - 🎉 [Wydavix Discord](https://discord.wydavix.fr).
-- 🔖 V 1.0.0
+- 🔖 V 1.0.1
 
 ## 📚 Dependence
 

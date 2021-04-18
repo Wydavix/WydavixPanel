@@ -1,0 +1,11 @@
+body {
+  background: url("../img/fond_website.jpg") center center no-repeat fixed;
+  background-size: cover;
+}
+
+html { overflow-y: hidden; } 
+
+* {
+  margin: 0;
+  padding: 0;
+}

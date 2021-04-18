@@ -1,14 +1,14 @@
-const { app, BrowserWindow } = require('electron')
+const { app, BrowserWindow, ipcMain } = require('electron')
 const path = require('path')
 
 function createWindow () {
   const mainWindow = new BrowserWindow({
-    title: "Legion-Studio - Launcher",
+    title: "AdminPanel - Wydavix",
     icon: path.join(__dirname, "./asset/logo.png"),
     width: 1000,
     height: 650,
     frame: false,
-    titleBarStyle: "hidden",
+    titleBarStyle: "show",
     webPreferences:{
       nodeIntegration:true,
       enableRemoteModule:true
