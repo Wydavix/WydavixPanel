@@ -17,7 +17,7 @@ You need to run the code in your integrated development environment (IDE) and wr
 
 ## 🙎‍♂️ Author
 
-- **MJlulu02** **DevNetwork** - _Initial work_ - [Wydavix](https://github.com/Wydavix)
+- **MJlulu02**, **DevNetwork** - _Initial work_ - [Wydavix](https://github.com/Wydavix)
 
 ## 📜 License
 
