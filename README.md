@@ -1,6 +1,4 @@
-# WydavixPanel
-
-## <h1>📍 WydavixPanel By MJlulu02</h1>
+## <h1>📍 WydavixPanel</h1>
 
 - 🔧 [Wydavix](https://www.wydavix.fr) Gestion Panel.
 - 🎉 [Wydavix Discord](https://discord.wydavix.fr).
