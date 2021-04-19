@@ -8,8 +8,13 @@
 
 ➕ Install the dependencies :
 
+### For Panel
 - 💎 NodeJs v 15.14.0 [(NodeJs)](https://nodejs.org/en/)
 - 💎 ElectronJs v 12.0.4 [(ElectronJs)](https://www.electronjs.org/)
+- 💎 Axios v 0.21.1 [(Axios)](https://github.com/axios/axios)
+### For API
+- 💎 Body-parser v 1.19.0 [(Body-parser)](https://www.npmjs.com/package/body-parser)
+- 💎 Express v 4.17.1 [(Express)](https://expressjs.com/fr/)
 
 ## 💻 Run Code
 
