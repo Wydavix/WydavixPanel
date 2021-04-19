@@ -1,10 +1,8 @@
-# WydavixPanel
-
-## <h1>📍 WydavixPanel By MJlulu02</h1>
+## <h1>📍 WydavixPanel</h1>
 
 - 🔧 [Wydavix](https://www.wydavix.fr) Gestion Panel.
 - 🎉 [Wydavix Discord](https://discord.wydavix.fr).
-- 🔖 V 1.0.1
+- 🔖 V 1.1.0
 
 ## 📚 Dependence
 
@@ -15,7 +13,7 @@
 
 ## 💻 Run Code
 
-You need to run the code in your integrated development environment (IDE) and write in your terminal **npm run start**.
+You need to run the code in your integrated development environment (IDE) and write in your terminal `npm run start`.
 
 ## 🙎‍♂️ Author
 

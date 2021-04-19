@@ -8,14 +8,14 @@ function createWindow () {
     width: 1000,
     height: 650,
     frame: false,
-    titleBarStyle: "show",
+    titleBarStyle: "hidden",
     webPreferences:{
       nodeIntegration:true,
       enableRemoteModule:true
     },
   })
 
-  mainWindow.loadURL(path.join(__dirname, "./panel/index.html"))
+  mainWindow.loadURL(path.join(__dirname, "./panel/adminHome/index.html"))
 
 }
 
