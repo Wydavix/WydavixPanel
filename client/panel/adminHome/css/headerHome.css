@@ -9,16 +9,23 @@
 }
 
 .wrapper-discord {
-  position: absolute;
   display: flex;
-  justify-content: center;
+  position: absolute;
+  justify-content: right;
+  float: right;
   align-items: center;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  width: 200px;
+  height: 250px;   
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.35), 0 3px 6px rgba(0, 0, 0, 0.65);
+  transition: 0.5s all ease;
 }
 
 .content-discord {
   transition: 0.5s all ease;
-  width: 200px;
-  height: 35vh;
+  width: 100%;
+  height: 100%;
   background-color: rgb(221, 221, 221);
   border-radius: 5px;
   border-color: aqua;
@@ -26,21 +33,22 @@
   text-align: center;
 }
 
-.content-discord:hover {
-  width: 225px;
-  height: 45vh;
+.wrapper-discord:hover {
+  box-shadow: 0 6px 9px rgba(0, 0, 0, 0.35), 0 6px 9px rgba(0, 0, 0, 0.65);
+  width: 250px;
+  height: 300px;
   transition: 0.5s all ease;
 }
 
-.content-discord:hover .logo-discordpanel {
+.wrapper-discord:hover .logo-discordpanel {
   margin-top: 35px;
-  width: 125px;
+  width: 150px;
   transition: 0.5s all ease;
 }
 
 .logo-discordpanel {
   margin-top: 15px;
-  width: 100px;
+  width: 125px;
   transition: 0.5s all ease;
 }
 
@@ -56,20 +64,25 @@
 }
 
 .wrapper-botpanel {
-  position: absolute;
+  transform: translateX(50%);
   display: flex;
-  justify-content: left;
-  float: left;
+  position: absolute;
+  justify-content: right;
+  float: right;
   align-items: center;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    left: 150px;
+  left: 60px;
+  width: 200px;
+  height: 250px;   
+  transition: 0.5s all ease;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.35), 0 3px 6px rgba(0, 0, 0, 0.65);
 }
 
 .content-botpanel {
   transition: 0.5s all ease;
-  width: 200px;
-  height: 35vh;
+  width: 100%;
+  height: 100%;
   background-color: rgb(221, 221, 221);
   border-radius: 5px;
   border-color: aqua;
@@ -77,21 +90,23 @@
   text-align: center;
 }
 
-.content-botpanel:hover {
-  width: 200px;
-  height: 45vh;
+.wrapper-botpanel:hover {
+  box-shadow: 0 6px 9px rgba(0, 0, 0, 0.35), 0 6px 9px rgba(0, 0, 0, 0.65);
+  left: 10px;
+  width: 250px;
+  height: 300px;
   transition: 0.5s all ease;
 }
 
-.content-botpanel:hover .logo-botpanel {
+.wrapper-botpanel:hover .logo-botpanel {
   margin-top: 35px;
-  width: 125px;
+  width: 150px;
   transition: 0.5s all ease;
 }
 
 .logo-botpanel {
   margin-top: 15px;
-  width: 100px;
+  width: 125px;
   transition: 0.5s all ease;
 }
 
@@ -107,6 +122,7 @@
 }
 
 .wrapper-docs {
+  transform: translateX(-50%);
   display: flex;
   position: absolute;
   justify-content: right;
@@ -114,13 +130,24 @@
   align-items: center;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  right: 150px;
+  right: 60px;
+  width: 200px;
+  height: 250px;   
+  transition: 0.5s all ease;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.35), 0 3px 6px rgba(0, 0, 0, 0.65);
+}
+
+.wrapper-docs:hover {
+  box-shadow: 0 6px 9px rgba(0, 0, 0, 0.35), 0 6px 9px rgba(0, 0, 0, 0.65);
+  right: 10px;
+  width: 250px;
+  height: 300px;
+  transition: 0.5s all ease;
 }
 
 .content-docs {
-  transition: 0.5s all ease;
-  width: 200px;
-  height: 35vh;
+  width: 100%;
+  height: 100%;
   background-color: rgb(221, 221, 221);
   border-radius: 5px;
   border-color: aqua;
@@ -128,21 +155,16 @@
   text-align: center;
 }
 
-.content-docs:hover {
-  width: 200px;
-  height: 45vh;
-  transition: 0.5s all ease;
-}
 
-.content-docs:hover .logo-docspanel {
+.wrapper-docs:hover .logo-docspanel {
   margin-top: 35px;
-  width: 125px;
+  width: 150px;
   transition: 0.5s all ease;
 }
 
 .logo-docspanel {
   margin-top: 15px;
-  width: 100px;
+  width: 125px;
   transition: 0.5s all ease;
 }
 
